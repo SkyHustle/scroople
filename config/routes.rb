@@ -5,5 +5,6 @@ Rails.application.routes.draw do
 
   namespace :themes do
     resources :agency
+    resources :freelancer
   end
 end

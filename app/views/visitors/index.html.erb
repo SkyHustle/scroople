@@ -11,18 +11,19 @@
             <a href="#">
                 <%= image_tag "themes/agency/portfolio/golden.png", class: "img-responsive" %>
             </a>
-            <h3>Agency</h3>
-            <a href="<%= themes_agency_index_path %>" class="btn btn-default" role="button">Preview Theme</a>
+            <h3>
+                <a href="<%= themes_agency_index_path %>">Agency</a>
+            </h3>
             <p>Agency is a stylish, one page Bootstrap theme for agencies and small businesses.</p>
         </div>
         <div class="col-md-4 portfolio-item">
             <a href="#">
-                <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <%= image_tag "themes/freelancer/freelancer.jpg", class: "img-responsive" %>
             </a>
             <h3>
-                <a href="#">Project Name</a>
+                <a href="<%= themes_freelancer_index_path %>">Freelancer</a>
             </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p>Freelancer is a one page Bootstrap portfolio theme for freelancers.</p>
         </div>
         <div class="col-md-4 portfolio-item">
             <a href="#">

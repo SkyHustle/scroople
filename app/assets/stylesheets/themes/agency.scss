@@ -846,14 +846,16 @@ ul.list-inline.social-buttons {
     text-align: center;
 }
 
-.img-responsive {
-  width: 100%;
-}
-
 nav.navbar.navbar-default.navbar-fixed-top.navbar-shrink {
   margin-top: 27px;
 }
 
+.img-responsive {
+  width: 100%;
+  height: 100%;
+}
+
 img.img-responsive.brand-logo {
   max-width: 112px;
+  height: 36px;
 }

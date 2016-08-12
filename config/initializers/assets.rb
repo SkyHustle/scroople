@@ -21,6 +21,6 @@ Rails.application.config.assets.precompile += %w( devise/passwords.js )
 
 Rails.application.config.assets.precompile += %w( themes/user_theme.js )
 
-%w( themes/agency visitors users ).each do |controller|
+%w( themes/agency themes/freelancer visitors users ).each do |controller|
   Rails.application.config.assets.precompile += ["#{controller}.js", "#{controller}.scss"]
 end
