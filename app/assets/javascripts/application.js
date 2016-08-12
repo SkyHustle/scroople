@@ -15,3 +15,4 @@
 //= require jquery_ujs
 //= require jquery.easing
 //= require turbolinks
+//= require jqBootstrapValidation
