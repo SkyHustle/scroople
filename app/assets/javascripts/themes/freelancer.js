@@ -1,7 +1,6 @@
 // Freelancer Theme JavaScript
 
-(function($) {
-    "use strict"; // Start of use strict
+$(document).ready(function() {
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('.page-scroll a').bind('click', function(event) {
@@ -40,5 +39,4 @@
             $(this).removeClass("floating-label-form-group-with-focus");
         });
     });
-
-})(jQuery); // End of use strict
+})
